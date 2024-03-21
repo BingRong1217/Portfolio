@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header"></header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>歷史資料</h1>
+									</header>
+										<form action="{{ url_for('record') }}" method="POST">
+											
+											<div class="col-6">
+												<select name="inputYear" id="inputYear">
+													<option value="">- 年份 -</option>
+													{% for i in range(2018, 2024) %}
+														<option value="{{ i }}">{{ i }}</option>
+													{% endfor %}
+												</select>
+											</div>
+											
+											<br/>
+																					
+											<div class="col-6">
+												<select name="inputMonth" id="inputMonth">
+													<option value="">- 月份 -</option>
+													{% for i in range(1, 13) %}
+														<option value="{{ i }}">{{ i }}</option>
+													{% endfor %}
+												</select>
+											</div>
+
+											<br/>
+
+											<div class="col-6">
+												<select name="inputDay" id="inputDay">
+													<option value="">- 日期 -</option>
+													{% for i in range(1, 32) %}
+														<option value="{{ i }}">{{ i }}</option>
+													{% endfor %}
+												</select>
+											</div>
+
+											<br/>
+
+											<!-- Buttons -->
+											<font size="4"><input type="submit" class="button primary" value="SEARCH"></font>		
+										</form>
+										
+									<!-- Elements -->
+										<div>
+											<div>
+
+												<!-- Table -->
+
+												<div class="table-wrapper">
+													<table class="alt">
+
+														<tbody>
+															<tr>
+																<td>年</td>
+																<td>月</td>
+																<td>日</td>
+																<td>氣溫(℃)</td>
+																<td>相對溼度(%)</td>
+																<td>風速(m/s)</td>
+																<td>風向(360degree)</td>
+																<td>降水量(mm)</td>
+															</tr>
+															<tr>
+																{% for item in info %}
+																	<td>{{ item }}</td>
+																{% endfor %}
+															</tr>	
+
+														</tbody>
+
+													</table>
+												</div>
+
+											</div>
+											<div class="col-6 col-12-medium">
+												<div class="table-wrapper">
+													<table class="alt">
+	
+														<tbody>
+															<tr>
+																<td>隔日降雨量(mm)</td>
+																<td>我的預測</td>
+															</tr>
+															<tr>
+																{% for item in result %}
+																	<td>{{ item }}</td>
+																{% endfor %}
+															</tr>	
+	
+														</tbody>
+	
+													</table>
+												</div>
+											</div>
+										</div>
+
+								</section>
+
+						</div>
+					</div>
+
+					<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html"><font size="5">Homepage</font></a></li>
+										<li><a href="query.html"><font size="5">明日預報</font></a></li>
+										<li><a href="record.html"><font size="5">歷史資料</font></a></li>
+										<li><a href="correct.html"><font size="5">準確率</font></a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</div>
+
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/browser.min.js"></script>
+			<script src="/static/js/breakpoints.min.js"></script>
+			<script src="/static/js/util.js"></script>
+			<script src="/static/js/main.js"></script>
+
+	</body>
+</html>
