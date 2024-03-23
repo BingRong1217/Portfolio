@@ -1,0 +1,4 @@
+C:\Alex\connie\計網\mySocket\mySocket\x64\Debug\mySocket.vcxproj.AssemblyReference.cache
+C:\Alex\connie\計網\mySocket\mySocket\x64\Debug\mySocket.vcxproj.SuggestedBindingRedirects.cache
+C:\Alex\connie\計網\mySocket\mySocket\x64\Debug\mySocket.MyForm.resources
+C:\Alex\connie\計網\mySocket\mySocket\x64\Debug\mySocket.vcxproj.GenerateResource.cache

@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中繼目錄 (x64\Debug\) 包含從其他專案 (mySocket.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  MyForm.obj : 發現 MSIL 模組。MSIL 的累加連結已停用。正在執行完整連結
+  client.vcxproj -> C:\Users\user\me\計算機網路\mySocket\client\x64\Debug\client.exe

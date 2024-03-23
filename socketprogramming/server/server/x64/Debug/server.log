@@ -1,0 +1,4 @@
+﻿  MyForm.cpp
+C:\Users\user\me\計算機網路\mySocket\server\server\MyForm.cpp(11,1): warning C4829: 函式 main 的參數可能不正確。請考慮 'int main(Platform::Array<Platform::String^>^ argv)'
+  MyForm.obj : 發現 MSIL 模組。MSIL 的累加連結已停用。正在執行完整連結
+  server.vcxproj -> C:\Users\user\me\計算機網路\mySocket\server\x64\Debug\server.exe

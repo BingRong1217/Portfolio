@@ -1,0 +1,3 @@
+C:\Users\user\me\計算機網路\mySocket\server\server\x64\Debug\server.vcxproj.AssemblyReference.cache
+C:\Users\user\me\計算機網路\mySocket\server\server\x64\Debug\server.MyForm.resources
+C:\Users\user\me\計算機網路\mySocket\server\server\x64\Debug\server.vcxproj.GenerateResource.cache

@@ -1,0 +1,4 @@
+﻿  MyForm.cpp
+C:\Alex\connie\計網\mySocket\mySocket\MyForm.cpp(11,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  mySocket.vcxproj -> C:\Alex\connie\計網\mySocket\x64\Debug\mySocket.exe
