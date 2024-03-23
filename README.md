@@ -4,7 +4,7 @@
 * socket 連線的建立與斷線
 * 具 non-blocking 功能的 socket client 端
 * 支持多重連線的 socket server 端
-* client 與server 之間的socket通訊
+* client 與 server 之間的 socket 通訊
 * 即時顯示各條socket連線的狀態與通訊的內容
 本作業包含了兩個獨立執行的程式: client程式與server程式 
 # 使用工具介紹 
