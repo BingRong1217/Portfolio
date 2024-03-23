@@ -1,4 +1,4 @@
-# 程式作業介紹 
+# socket programming 程式介紹 
 Socket Programming 這個程式作業以 GUI 與 multi-threading 的方式實作並展示了以下關於TCP socket的功能: 
 * server 與server port 的選用
 * socket 連線的建立與斷線
